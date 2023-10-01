@@ -1,3 +1,4 @@
+
 # Next.js 13 Redux and Redux Persist Example Project
 
 This example project integrates Redux and Redux Persist using Next.js 13. Redux is used to manage the global state of your application, and Redux Persist ensures that this state is stored in local storage and persists across page transitions.
@@ -17,20 +18,29 @@ To get started with the project, follow the steps below.
 
    ```bash
    git clone [repo-link]
+    ```
 
+2. Navigate to the project folder:
+   ```bash
+   cd nextjs13-redux-reduxpersist
+    ```
+3. Install the dependencies by running the following command:
+   ```bash
+   npm install
+   # or 
+   yarn install
+    ```
 
-
-
-## Running
+### Running
 To start the project, run the following command:
 
    ```bash
    npm run dev
-# or
-   ```bash
+   # or
    yarn dev
-
-
+ ```
+ Your application should now be running at `http://localhost:3000`.
+ 
 ## Usage
 This example project demonstrates incrementing and decrementing a value on a page using Redux. Additionally, thanks to Redux Persist, this value will be preserved even when the page is refreshed.
 
